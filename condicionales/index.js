@@ -14,7 +14,7 @@ if (respuesta == ECMAScript) {
 
 //ejercicio 3 
 
-let numero = prompt("inserta un número");
+/*let numero = prompt("inserta un número");
 
 if ( numero == "0" ) {
     alert("0")
@@ -24,4 +24,18 @@ if ( numero == "0" ) {
     alert("1")
 } else {
     alert("no se registro número")
-}
+} */
+
+/* let result = (a + b < 4) ? "debajo" :
+                "encima" ;
+
+ */
+
+let login = prompt("que cargo ocupas", " ");
+
+let message = (login == "empleado") ? "hola" :
+              (login == "director") ? "felicidades" :
+              (login == " ") ? "sin sesión" :
+              " " ;
+  
+alert (message);
